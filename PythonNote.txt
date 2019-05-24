@@ -1,0 +1,40 @@
+运行:
+python code.py
+
+注释：
+单行注释 #
+多行注释 '''msg'''    """msg"""
+
+print("")
+print(msg)
+
+/n换行
+/t制表
+
+字符串处理：
+msg1 = "msg1"
+msg2 = "msg2"
+msg3 = msg1 + msg2;#字符串拼接；
+
+空格也会识别为内容
+msg = "qweewq";
+msg.lower();
+msg.upper();
+msg.title();
+
+删除空白：
+开头的空白：msg.lstrip()
+结尾的空白：msg.rstrip(); 
+两头空白：msg.strip()
+
+
+数字：
+整数加减乘除： + - * /
+乘方： **
+
+整数相除得商；
+
+浮点数相除得浮点数；
+
+字符串不能和数字直接拼接，需要将数字转成字符串 str（num）
+
